@@ -1,0 +1,8 @@
+{
+  "global": {
+    "welcome": "Hey you!"
+  },
+  "product": {
+    "product localisation": "Localised message for product"
+  }
+}

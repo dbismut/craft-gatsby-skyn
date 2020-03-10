@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+footer {
+  padding: 80px;
+  background: black;
+  color: white;
+}
