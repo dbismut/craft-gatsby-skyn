@@ -2,6 +2,8 @@ const React = require('react')
 const Layout = require('./src/global/Layout').default
 const { IntlProvider } = require('react-intl')
 
+// Wrapper pour l'internationalisation des fichiers statiques locales/xx.json
+
 exports.wrapPageElement = ({ element, props }) => {
   return (
     <IntlProvider

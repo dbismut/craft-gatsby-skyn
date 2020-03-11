@@ -16,30 +16,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-graphql',
       options: {
-        // Arbitrary name for the remote schema Query type
         typeName: 'CRAFT',
-        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
         fieldName: 'craft',
-        // Url to query from
         url: `${process.env.GATSBY_CRAFT_URL}/craftql`,
         headers: {
           Authorization: `Bearer ${process.env.CRAFTQL_TOKEN}`,
         },
-        // refetchInterval: 60,
       },
     },
-    // {
-    //   resolve: 'gatsby-source-graphql',
-    //   options: {
-    //     // Arbitrary name for the remote schema Query type
-    //     typeName: 'CRAFTCMS',
-    //     // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
-    //     fieldName: 'craftcms',
-    //     // Url to query from
-    //     url: `${process.env.GATSBY_CRAFT_URL}/api`,
-    //     // refetchInterval: 60,
-    //   },
-    // },
     {
       resolve: 'gatsby-source-shopify',
       options: {

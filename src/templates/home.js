@@ -6,8 +6,6 @@ const HomePage = ({
     craft: { entry, products },
   },
 }) => {
-  console.log(entry, products)
-
   return (
     <>
       <h1>Home</h1>
